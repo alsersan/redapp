@@ -6,7 +6,7 @@ import path from 'path';
 export default {
   migrations: {
     path: path.join(__dirname, './migrations'),
-    pattern: /^[\w-]+\d+\.[ts]s$/,
+    pattern: /^[\w-]+\d+\.[tj]s$/,
   },
   entities: [Post],
   dbName: 'redapp',
