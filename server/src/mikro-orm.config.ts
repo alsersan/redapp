@@ -12,5 +12,4 @@ export default {
   dbName: 'redapp',
   type: 'postgresql',
   debug: !__prod__,
-  sdfsdfsd: 'sfkjdsf',
 } as unknown as Parameters<typeof MikroORM.init>[0];
