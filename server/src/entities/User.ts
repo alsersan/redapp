@@ -17,10 +17,6 @@ export class User {
   updatedAt = new Date();
 
   @Field()
-  @Property({ type: 'text' })
-  name!: string;
-
-  @Field()
   @Property({ type: 'text', unique: true })
   email!: string;
 
